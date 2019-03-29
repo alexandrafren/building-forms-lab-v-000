@@ -10,7 +10,7 @@ class BandInput extends Component {
     }
   }
 
-  let handleSubmit = event => {
+  handleSubmit = event => {
 
   }
 
