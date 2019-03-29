@@ -18,6 +18,10 @@ class BandInput extends Component {
 
   handleChange = event => {
     preventDefault();
+    //set props
+    this.setState({
+      name: ''
+    })
   }
 
   render() {
