@@ -6,7 +6,7 @@ class BandInput extends Component {
   constructor() {
     super();
     this.state = {
-      text: ''
+      name: ''
     }
   }
   render() {
