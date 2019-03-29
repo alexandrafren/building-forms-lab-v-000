@@ -15,6 +15,7 @@ class BandInput extends Component {
   }
 
   handleChange = event => {
+    preventDefault();
 
   }
 
