@@ -16,4 +16,4 @@ mapStateToProps = state => {
   }
 }
 
-export default BandsContainer
+export default connect(mapStateToProps)(BandsContainer);
