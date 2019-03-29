@@ -14,7 +14,7 @@ class BandInput extends Component {
 
   }
 
-  handleChange = event => {
+  ley handleChange = event => {
 
   }
 
