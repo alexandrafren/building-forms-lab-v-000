@@ -11,7 +11,7 @@ class BandsContainer extends Component {
   }
 }
 
-mapStateToProps = state => {
+let mapStateToProps = state => {
   return {
     state
   }
