@@ -3,7 +3,7 @@ export default function manageBand(state = {
 }, action) {
   switch (action.type) {
     case 'ADD_BAND':
-      return 
+      return
     default:
       return state;
   }
