@@ -10,4 +10,10 @@ class BandsContainer extends Component {
   }
 }
 
+mapStateToProps = state => {
+  return {
+    state
+  }
+}
+
 export default BandsContainer
