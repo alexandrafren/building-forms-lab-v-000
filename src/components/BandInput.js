@@ -9,6 +9,15 @@ class BandInput extends Component {
       name: ''
     }
   }
+
+  handleSubmit = event => {
+
+  }
+
+  handleChange = event => {
+
+  }
+
   render() {
     return(
       <div>
