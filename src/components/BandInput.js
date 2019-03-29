@@ -41,4 +41,4 @@ const mapDispatchToProps = dispatch => ({
   addBand: formData => dispatch({type: 'ADD_BAND', payload: formData})
 })
 
-export default BandInput
+export default connect(null, mapDispatchToProps)(BandInput);
