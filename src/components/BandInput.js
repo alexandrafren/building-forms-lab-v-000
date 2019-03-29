@@ -11,12 +11,14 @@ class BandInput extends Component {
   }
 
   handleSubmit = event => {
-
+    this.setState({
+      name: event.target.value
+    })
   }
 
   handleChange = event => {
     preventDefault();
-
+    this.setState
   }
 
   render() {
